@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# link
 url = "https://quotes.toscrape.com"
 
 response = requests.get(url)
